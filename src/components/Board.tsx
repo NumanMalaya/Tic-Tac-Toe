@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Square from "./Square";
 import checkWinner from "./CheckWinner";
-import Footer from "./footer";
+import Footer from "./Footer";
 export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [player, setPlayer] = useState("X");
