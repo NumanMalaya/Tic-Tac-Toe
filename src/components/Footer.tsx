@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <span className="text-center">
-        By
+        By {" - "}
         <a
           href="https://numanmalaya.online"
           className="text-success"
