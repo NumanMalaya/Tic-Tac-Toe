@@ -58,3 +58,10 @@ body{
     transform: translate(-50%, -45%);
     font-size: 20px;
 }
+
+
+@media screen and (min-width: 480px) {
+    .header{
+        margin: 20px 0px 1000px;
+    }
+  }
