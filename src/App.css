@@ -1,13 +1,26 @@
 body{
     background-color: rgb(27, 27, 27);
     color: white;
-
 }
 #root{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+}
+.header{
+    margin: 20px 0px 40px;
+}
+.footer{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.footer span{
+    color: white;
+    font-size: 20px;
+}
+.footer span a{
+    text-decoration: none;
 }
 .namePlate{
     display: flex;
@@ -36,6 +49,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+    width: 80%;
 }
 .restartBtn{
     position: absolute;
