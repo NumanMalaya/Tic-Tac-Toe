@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(27, 27, 27);
+    color: white;
+
+}
 #root{
     display: flex;
     justify-content: center;
@@ -10,7 +15,8 @@
 }
 .square{
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
     font-size: 60px;
     font-weight: 700;
     width: 100px;
@@ -22,7 +28,7 @@
     align-items: center;
 }
 .board{
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .alert{
     position: absolute;
