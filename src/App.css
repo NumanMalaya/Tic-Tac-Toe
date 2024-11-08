@@ -49,7 +49,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    width: 80%;
 }
 .restartBtn{
     position: absolute;
@@ -60,8 +59,11 @@ body{
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .header{
-        margin: 20px 0px 1000px;
+        margin: 20px 0px 100px;
+    }
+    .alert{
+        width: 80%;
     }
   }
