@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Square from "./Square";
-import checkWinner from "./CheckWinner";
-import Footer from "./Footer";
+import CheckWinner from "./CheckWinner";
 export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [player, setPlayer] = useState("X");
@@ -20,10 +19,7 @@ export default function Board() {
   }
   return (
     <div>
-      {checkWinner({ squares })}
-      <div className="header">
-        <h1 className="text-center">Tic-Tac-Toe</h1>
-      </div>
+      {CheckWinner({ squares })}
       <div className="namePlate">
         <h2 id="playerX" className={player === "X" ? "text-success fw-bold fs-1" : ""}>
           X
@@ -49,7 +45,6 @@ export default function Board() {
           <Square value={squares[8]} onSquareClick={() => setSquare(8)} />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
