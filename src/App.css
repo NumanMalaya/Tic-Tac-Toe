@@ -7,20 +7,17 @@ body{
     justify-content: center;
 }
 .header{
-    margin: 20px 0px 40px;
+    margin: 10px 0px 40px;
 }
 .footer{
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%);
 }
 .footer span{
     color: white;
     font-size: 20px;
-}
-.footer span a{
-    text-decoration: none;
 }
 .namePlate{
     display: flex;
@@ -61,7 +58,7 @@ body{
 
 @media screen and (max-width: 480px) {
     .header{
-        margin: 20px 0px 100px;
+        margin: 10px 0px 100px;
     }
     .alert{
         width: 80%;
