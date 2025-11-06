@@ -3,7 +3,7 @@ export default function Footer() {
     <div className="footer text-center text-light">
       <span>
         By ❤️{" "}
-        <a href="https://numanmalaya.online" target="_blank" className="text-success">
+        <a href="https://numanmalaya.github.io/NumanMalaya/" target="_blank" className="text-success">
           Numan Malaya
         </a>
       </span>
